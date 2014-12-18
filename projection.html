@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Data Science Meetup</title>
+
+		<meta name="description" content="Big data technologies used at Real Impact Analytics">
+		<meta name="author" content="Karim Douieb">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/karim.css" id="theme">
+		<link rel="stylesheet" href="css/viz/viz.css">
+		<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/monokai_sublime.css">
+
+		<!-- Include the appropriate print stylesheet -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+					<section>
+					<h1>Big Data Stack</h1>
+					<h3><a href="https://realimpactanalytics.com/en"><i class="fa fa-at fa-1x"></i> Real Impact Analytics</a></h3>
+					<h4>
+						<a style="color: black;" href="http://www.ulb.ac.be/di/algo/kdouieb/">Karim Douïeb</a>
+					</4>
+				</section>
+
+				<section data-state="uncenter">
+					<section>
+					  <h2>Who am I?</h2>
+						<img style="border:none; background:none; box-shadow:none;" src="resources/learningCurve.png">
+					</section>
+					<section>
+						<img style="border:none; background:none; box-shadow:none;" src="resources/venn.png">
+					</section>
+				</section>
+
+				<!--<section data-state="uncenter darkTheme" data-background-iframe="https://realimpactanalytics.com/" >
+					<h2>Where I work</h2>
+        </section>-->
+
+				<section>
+					<section data-state="uncenterDarkTheme" data-background="resources/MapReduce/MapReduce.013.jpg"><!--ria.png-->
+						<h2>Where do I work?</h2>
+					</section>
+					<section>
+						<h1>Missions</h1>
+						<table style="font-size: 80%;">
+							<thead>
+								<tr>
+									<th>Campaign managment</th>
+									<th>Operational optimization</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										Improve marketing<br>
+										Strengthen subscriber acquisitions<br>
+									  Acquire competitor market<br>
+										Increase cross-sales<br>
+										Reduce churn<br>
+										Target high value subscribers<br>
+										A/B test campaign messages<br>
+										Compute campaign's ROI
+									</td>
+									<td>
+										Drive field actions<br>
+										Improve network coverage<br>
+										Performance tracking<br>
+										Stock management<br>
+										Managed services<br>
+										Data commercialization
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+					<section>
+						<h1>Data</h1>
+						<table>
+							<tbody>
+								<tr> <td> <i class="fa fa-phone fa-1x"></i> </td> <td> Call Detail Record (CDR) </td> </tr>
+								<tr> <td> <i class="fa fa-clock-o fa-1x"></i> </td> <td> Date &mdash; Time &mdash; Duration </td> </tr>
+								<tr> <td> <i class="fa fa-dollar fa-1x"></i> </td> <td> Billing &mdash; Recharge &mdash; Money transfer </td> </tr>
+								<tr> <td> <i class="fa fa-group fa-1x"></i> </td> <td> Social Network </td> </tr>
+								<tr> <td> <i class="fa fa-globe fa-1x"></i> </td> <td> Antenna's geolocalisation </td> </tr>
+								<tr> <td> <i class="fa fa-signal fa-1x"></i> </td> <td> Network information </td> </tr>
+								<tr> <td> <i class="fa fa-file-code-o fa-1x"></i> </td> <td> Data usage &mdash; URL &mdash; App </td> </tr>
+							</tbody>
+						</table>
+					</section>
+					<section>
+						<h2>Treating telco/banking data of 300,000,000 subscribers daily</h2>
+					</section>
+					<section data-state="worldTour">
+						<h2>Active in 25+ countries</h2>
+						<div class="worldTourViz"></div>
+						<h4 class="countryName"></h4>
+					</section>
+					<section data-state="worldRatio">
+						<h2>Is this a lot?</h2>
+						<div class="worldRatioViz"></div>
+						<h4 class="ratio"></h4>
+						<h4>4.1% of world population</h4>
+					</section>
+					<section>
+						<h2>10% of africa's population</h2>
+						<br>
+						<i class="fa fa-male fa-2x"></i>
+						<i class="fa fa-male fa-2x"></i>
+						<i style="color: #f49423;" class="fa fa-male fa-2x"></i>
+						<i class="fa fa-male fa-2x"></i>
+						<i class="fa fa-male fa-2x"></i>
+						<i class="fa fa-male fa-2x"></i>
+						<i class="fa fa-male fa-2x"></i>
+						<i class="fa fa-male fa-2x"></i>
+						<i class="fa fa-male fa-2x"></i>
+						<i class="fa fa-male fa-2x"></i>
+					</section>
+					<section>
+						<h2>Still Room for growth</h2>
+					</section>
+				</section>
+
+				<section>
+					<section data-background="resources/Tesla.jpg">
+						<h1>Spark</h1>
+					</section>
+					<section>
+				    <div data-timeline="resources/timeline/spark.json"></div>
+				  </section>
+					<section>
+						<h3>Map Reduce is like <span class="fragment fade">making burgers</span></h3>
+						<img width="700" style="border:none; background:none; box-shadow:none;" class="fragment fade" data-src="resources/Burger.jpg">
+					</section>
+					<section data-transition="fade">
+						<img width="800" style="border:none; background:none; box-shadow:none;" data-src="resources/MapReduce/MapReduce.001.jpg">
+					</section>
+					<section data-transition="fade">
+						<img width="800" style="border:none; background:none; box-shadow:none;" data-src="resources/MapReduce/MapReduce.002.jpg">
+					</section>
+					<section data-transition="fade">
+						<h2>MapReduce data sharing primitive</h2>
+						<img width="800" style="border:none; background:none; box-shadow:none;" data-src="resources/MapReduce/MapReduce.003.jpg">
+					</section>
+					<section>
+						<h2>Restricted programming framework</h2>
+						<blockquote style="width: 100%;" cite="http://www.cs.berkeley.edu/~matei/papers/2010/hotcloud_spark.pdf">
+							&ldquo;<strong>MapReduce</strong> tasks must be written as <strong>acyclic dataflow programs</strong>, i.e. a stateless mapper followed by a stateless reducer, that are executed by a batch job scheduler.
+							<br>This <strong>paradigm</strong> makes repeated querying of datasets difficult and <strong>imposes limitations</strong> that are felt in fields such as machine learning, where <strong>iterative algorithms</strong> that revisit a single working set multiple times are the norm.&rdquo;
+							<br>&mdash; <a href="http://www.cs.berkeley.edu/~matei/papers/2010/hotcloud_spark.pdf">Zaharia, Chowdhury, Franklin, Shenker, Stoica</a>
+						</blockquote>
+					</section>
+					<section data-transition="fade">
+						<img width="800" style="border:none; background:none; box-shadow:none;" data-src="resources/MapReduce/MapReduce.004.jpg">
+					</section>
+					<section data-transition="fade">
+						<img width="800" style="border:none; background:none; box-shadow:none;" data-src="resources/MapReduce/MapReduce.005.jpg">
+					</section>
+					<section style="font-size: 80%;">
+						<h2>Resilient Distributed Dataset (RDD)</h2>
+						<p>
+							<h5 style="text-align: left;">Restricted form of distributed shared memory:</h5>
+							<ul>
+								<li>Immutable, partitioned data set.</li>
+								<li>Can only be build through coarse-grained deterministic transformations (map, filter, join, …). These are operations that are applied to all of the elements of the data set at once.</li>
+							</ul>
+						</p>
+						<p>
+							<h5 style="text-align: left;">Efficient fault recovery using lineage:</h5>
+							<ul>
+								<li>Remember the graph of transformation applied to each RDD.</li>
+								<li>When is lost simply recompute lost fragment of the execution graph.</li>
+							</ul>
+						</p>
+					</section>
+					<section>
+						<table style="font-size: 80%;">
+							<thead>
+								<tr><th>Transformations</th><th>Actions</th></tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										map<br>filter<br>flatMap<br>join<br>union<br>distinct<br>groupByKey<br>aggregateByKey<br>sortByKey<br>cogroup<br>sample<br>intersection<br>...
+									</td>
+									<td>
+										reduce<br>collect<br>count<br>first<br>take<br>takeSample<br>takeOrdered<br>countByKey<br>foreach<br>saveAsParquetFile<br>saveAsTextFile<br>saveAsObjectFile<br>...
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+					<section>
+						<h2>Log Mining example</h2>
+<pre><code class="scala"> val file = spark.textFile("hdfs://...")
+ val errors = file.filter(line => line.contains("ERROR"))
+ errors.cache()
+ // Count errors mentioning MySQL
+ errors.filter(line => line.contains("MySQL")).count()
+ // Count errors mentioning Windows should be much faster
+ errors.filter(line => line.contains("Windows")).count()
+</code></pre>
+					<p style="position: relative;">
+						<p style="position: absolute;" class="fragment"><img width="600" style="border:none; background:none; box-shadow:none;" data-src="resources/MapReduce/MapReduce.006.jpg"></p>
+						<p style="position: absolute;" class="fragment"><img width="600" style="border:none; background:none; box-shadow:none;" data-src="resources/MapReduce/MapReduce.007.jpg"></p>
+						<p style="position: absolute;" class="fragment"><img width="600" style="border:none; background:none; box-shadow:none;" data-src="resources/MapReduce/MapReduce.008.jpg"></p>
+						<p style="position: absolute;" class="fragment"><img width="600" style="border:none; background:none; box-shadow:none;" data-src="resources/MapReduce/MapReduce.009.jpg"></p>
+						<p style="position: absolute;" class="fragment"><img width="600" style="border:none; background:none; box-shadow:none;" data-src="resources/MapReduce/MapReduce.010.jpg"></p>
+					</p>
+					</section>
+					<section>
+						<h2>Logistic Regression Example</h2>
+						<pre><code class="scala"> val points = spark.textFile(...).map(parsePoint).cache()
+ var w = Vector.random(D) // current separating plane
+ for (i <- 1 to ITERATIONS) {
+	 val gradient = points.map(p =>
+ 		 (1 / (1 + exp(-p.y*(w dot p.x))) - 1) * p.y * p.x
+ 	 ).reduce(_ + _)
+ 	w -= gradient
+ }
+ println("Final separating plane: " + w)
+						</code></pre>
+						<img class="fragment fade" style="border:none; background:none; box-shadow:none;" data-src="resources/logistic-regression.png">
+					</section>
+					<section>
+						<h2>Spark Ecosystem</h2>
+						<img width="600" style="border:none; background:none; box-shadow:none;" data-src="resources/spark-stack.png">
+					</section>
+					<section>
+						<h2>Spark Drawback</h2>
+						<ul>
+							<li>Lack of maturity</li>
+							<li>Sometimes less efficient then specialized system</li>
+							<li>Difficult to debug
+								<ul>
+									<li>lazyness & optimisation</li>
+									<li>limited monitoring tools</li>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Big Data <i class="fa fa-at fa-1x"></i> Real Impact Analytics</h2>
+
+						<p>
+							<i class="fa fa-phone fa-2x"></i>
+							<i class="fa fa-clock-o fa-2x"></i>
+							<i class="fa fa-dollar fa-2x"></i>
+							<i class="fa fa-group fa-2x"></i>
+							<i class="fa fa-globe fa-2x"></i>
+							<i class="fa fa-signal fa-2x"></i>
+							<i class="fa fa-file-code-o fa-2x"></i>
+						</p>
+						<p>
+							<i class="fa fa-arrow-circle-down fa-2x"></i>
+						</p>
+						<ul>
+							<li>Basic usage statistic</li>
+							<li>Social communities detection</li>
+							<li>Mobility pattern</li>
+							<li>Behavior prediction</li>
+							<li>Recharge frequency</li>
+							<li>Anomaly detection</li>
+							<li>KPIs GeoMapping</li>
+						</ul>
+
+
+					</section>
+				</section>
+
+				<section data-background="resources/MapReduce/MapReduce.012.jpg"> <!--sayBigData.jpg-->
+				</section>
+
+				<section>
+					<section data-background="resources/ebolaOutbreak.png">
+					</section>
+					<section>
+						<h2>Leveraging anonymized telecom data to fight the Ebola outbreak</h2>
+						<!--<p>
+							collecting dynamic and updated data is one of the biggest challenges for health actors
+						</p>-->
+					</section>
+					<section>
+						<h2>4 key actors</h2>
+						<ul>
+							<li>Mobile Network Operators</li>
+							<li>Health actors</li>
+							<li>Analytics experts</li>
+							<li>Regulators</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Objectives</h2>
+						<ul>
+							<li>Set-up and secure a system for collecting telecom and public health data</li>
+							<li>Analyse mobility paterns and develop epidemiological models to simulate the potential spread paths of the disease</li>
+							<li>Build a platform/tools allowing identification of priority locations for action</li>
+						</ul>
+					</section>
+					<section data-state="fullMixModel">
+						<h2>Epidemiological fully mixed model</h2>
+						<div class="fullMixModelViz"></div>
+					</section>
+					<section data-state="hybridModel">
+						<h3>Epidemiological model with mobility componant</h3>
+						<div class="hybridModelViz"></div>
+					</section>
+					<section data-state="mobilityModel">
+						<h2>Simulation</h2>
+						<div class="mobilityModelViz"></div>
+					</section>
+					<section data
+					<section data-background-video="resources/Epidemics animation.webm" data-background-color="#000000">
+					</section>
+				</section>
+
+				<section>
+					<svg width="640" height="300" xmlns="http://www.w3.org/2000/svg">
+					  <title>black Star Glasses</title>
+					  <metadata id="metadata7">image/svg+xml</metadata>
+					  <g>
+					    <title>Layer 1</title>
+					    <path d="m445.72406,86.045715c-37.811279,0.253937 -74.24823,12.123665 -111.362091,16.8703c-15.489655,1.981148 -31.454407,2.466522 -46.970093,0.624634c-20.629822,-2.449356 -40.603043,-8.955338 -61.219223,-11.871849c-18.424255,-2.604774 -37.078735,-5.326279 -55.618668,-5.434509c-32.400101,-0.192863 -63.735413,9.994659 -95.497093,15.495583c0,9.330353 -1.888023,21.307236 2.860909,27.865662c4.898636,6.764206 13.161667,12.950882 15.304817,22.117264c5.082314,21.740097 12.298714,43.050537 21.525597,63.48024c4.483597,9.928223 12.946198,16.849899 22.396454,21.61795c22.757065,11.481857 49.691574,13.170486 74.656403,9.559631c35.552444,-5.141983 54.840805,-31.9319 69.555923,-62.542679c5.507599,-12.442932 6.122192,-26.803879 13.376007,-38.176422c4.307831,-6.753479 14.312561,-3.910828 21.462097,-3.935516c7.150635,-0.024628 13.211548,11.919037 15.429535,19.869354c7.853668,28.134583 20.947266,57.984634 46.971222,72.725891c38.861298,22.014374 100.085052,17.896744 125.299316,-21.805481c9.867584,-15.538422 12.592499,-34.3909 17.543243,-51.982269c3.013977,-10.710403 5.707092,-23.47908 16.425049,-29.366791c4.32489,-2.376541 1.289368,-11.857956 1.927734,-17.369583c0.696289,-6.004509 2.03772,-11.316864 -6.470276,-12.495476c-14.838745,-2.058281 -29.232941,-8.315689 -44.4198,-10.433968c-14.391998,-2.007927 -28.492554,-4.909439 -43.177063,-4.811966zm-249.973877,9.996819c10.733856,-0.06752 21.421265,0.7211 31.8535,2.936897c62.158127,13.203697 63.414536,38.923218 37.826004,92.096985c-20.850906,43.326981 -64.043854,54.183075 -107.566757,43.797348c-20.063965,-4.78627 -33.782387,-18.85141 -40.252647,-38.112137c-6.829735,-20.328979 -11.994827,-41.926544 -10.825729,-63.293793c1.567093,-28.610336 33.790306,-32.631584 56.863731,-35.238449c10.587601,-1.195755 21.36911,-2.118286 32.101898,-2.186852zm226.954834,0c10.733887,0.068565 21.515411,0.991096 32.103027,2.186852c23.072235,2.606865 55.29776,6.628113 56.86261,35.238449c1.169067,21.367249 -3.996063,42.964813 -10.825714,63.293793c-6.470337,19.260727 -20.188721,33.325867 -40.251556,38.112137c-43.521759,10.385727 -86.715851,-0.470367 -107.567902,-43.797348c-25.588501,-53.173767 -24.330963,-78.893288 37.827148,-92.096985c10.432281,-2.215797 21.119659,-3.004417 31.852386,-2.936897z" stroke-width="5" stroke="#000000" fill="#000000" id="path2830"/>
+					  </g>
+					</svg>
+					<h1>We are hiring (nerds)!</h1>
+					<h3>kdo@ria.bi</h3>
+				</section>
+
+				<section data-background-video="resources/KYC-QC.webm" data-background-color="#000000">
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="js/d3.min.js"></script>
+		<script src="js/topojson.v1.min.js"></script>
+		<script src="js/queue.v1.min.js"></script>
+		<script src="node_modules/underscore/underscore.js"></script>
+
+		<!-- Visualisation -->
+		<script type="text/javascript" src="js/viz/worldtour/worldtour.js"></script>
+		<script type="text/javascript" src="js/viz/worldRatio.js"></script>
+		<script type="text/javascript" src="js/viz/fullMixModel.js"></script>
+		<script type="text/javascript" src="js/viz/mobilityModel.js"></script>
+		<script type="text/javascript" src="js/viz/hybridModel.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				history: true,
+				touch: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+				  { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/timeline/reveal-timeline.js',  async: true, condition: function() { return 1; } }
+				]
+			});
+
+			Reveal.addEventListener( 'slidechanged', function( event ) {
+				Reveal.configure(currentConfig);
+				currentConfig = setToDefault();
+			} );
+
+			var setToDefault = function(){
+				return {center: true, theme: 'karim'};
+			}
+
+			var currentConfig = setToDefault();
+
+			Reveal.addEventListener( 'uncenter', function() {
+			  currentConfig.center = false;
+			} );
+
+			Reveal.addEventListener( 'darkTheme', function() {
+				currentConfig.theme = 'karimBlack';
+			} );
+
+			Reveal.addEventListener( 'uncenterDarkTheme', function() {
+				currentConfig.center = false;
+				currentConfig.theme = 'karimBlack';
+			} );
+
+			Reveal.addEventListener( 'worldTour', function() {
+				worldTour();
+			} );
+
+			Reveal.addEventListener( 'worldRatio', function() {
+				worldRatio();
+			} );
+
+			Reveal.addEventListener( 'worldRatio', function() {
+				worldRatio();
+			} );
+
+			Reveal.addEventListener( 'fullMixModel', function() {
+				fullMixModel();
+			} );
+
+			Reveal.addEventListener( 'mobilityModel', function() {
+				mobilityModel();
+			} );
+
+			Reveal.addEventListener( 'hybridModel', function() {
+				hybridModel();
+			} );
+
+		</script>
+	</body>
+</html>

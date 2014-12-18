@@ -1,0 +1,27 @@
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.scale {
+  stroke: #d0d0d0;
+  stroke-width: 0.5px;
+  fill-opacity: 0;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.background {
+  fill: #eee;
+}
+
+line {
+  stroke: #fff;
+}
+
+text.active {
+  fill: red;
+}
