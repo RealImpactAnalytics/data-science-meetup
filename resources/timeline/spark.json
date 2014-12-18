@@ -1,0 +1,127 @@
+{
+  "timeline":
+  {
+    "headline":"Brief History",
+    "type":"default",
+    "startDate":"2009",
+    "text": "<p><strong>Apache Spark</strong> is a fast and general engine for large-scale data processing.</p>",
+    "asset": {
+      "media":"/resources/spark-logo.png",
+      "credit":"",
+      "caption":""
+    },
+    "date": [
+        {
+              "startDate":"2003,10",
+              "headline":"The Google File System",
+              "text":"Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung (Google)",
+              "asset":
+              {
+                  "media":"http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf",
+                  "credit":"",
+                  "caption":""
+              }
+           },
+        {
+              "startDate":"2004,12",
+              "headline":"MapReduce: Simplified Data Processing on Large Clusters",
+              "text":"Jeffrey Dean and Sanjay Ghemawat (Google)",
+              "asset":
+              {
+                  "media":"http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf",
+                  "credit":"",
+                  "caption":""
+              }
+           },
+        {
+              "startDate":"2005",
+              "headline":"Hadoop Creation",
+              "text":"Hadoop was created by Doug Cutting and Mike Cafarella in 2005. Cutting, who was working at Yahoo! at the time, named it after his son's toy elephant. It was originally developed to support distribution for the Nutch search engine project.",
+              "asset":
+              {
+                  "media":"/resources/hadoop-elephant.png",
+                  "credit":"",
+                  "caption":""
+              }
+           },
+        {
+                "startDate":"2009",
+                "headline":"Genesis",
+                "text":"Spark started as a research project in the AMPLab at UC-Berkeley. It was the main topic of Matei Zaharia's PhD thesis.",
+                "asset":
+                {
+                    "media":"https://www.google.be/maps/place/University+of+California,+Berkeley/@37.8261724,-122.2326513,10z/data=!4m2!3m1!1s0x808f7718c522d7c1:0xda8034ea3b6b3289?hl=en",
+                    "credit":"",
+                    "caption":"University of California, Berkeley, CA, United States"
+                }
+            },
+        {
+                "startDate":"2010",
+                "headline":"Open sourced",
+                "text":"1st version of Spark was 1,600 lines of codes and could run Wikipedia demo: Interactively searching through Wikipedia within seconds (30 GB uncompressed).",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+        {
+                "startDate":"2011,3",
+                "headline":"BDAS",
+                "text":"<p>AMPLab started to develop higher-level components on Spark: <strong>Spark Streaming</strong>, <strong>MLib</strong>, <strong>GraphX</strong>, <strong>Spark SQL</strong>. These and other components are often referred to as the Berkeley Data Analytics Stack (BDAS)</p>",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+        {
+                "startDate":"2013,6",
+                "headline":"Entered Apache Icubator",
+                "text":"<p>68 contibutors</p><p>17 companies contributing, including Yahoo! and Intel.</p><p>63,000 lines of codes</p>",
+                "asset":
+                {
+                    "media":"/resources/incubator.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+        {
+                "startDate":"2014,2",
+                "headline":"Became Apache top-level project",
+                "text":"",
+                "asset":
+                {
+                    "media":"/resources/apache.png",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+        {
+                "startDate":"2014,6",
+                "headline":"Increasing adoption",
+                "text":"<p>255 contibutors</p><p>50 companies contributing</p><p>175,000 lines of codes</p>",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+        {
+                "startDate":"2014,9,10",
+                "headline":"",
+                "text":"<p>Spark sorted 1 PB of data (10 trillion records) on 190 machines in under 4 hours.</p><p>This PB time beats previously reported results based on Hadoop MapReduce (16 hours on 3800 machines).</p>",
+                "asset":
+                {
+                    "media":"<blockquote>“The fastest engine for sorting a petabyte”</blockquote>",
+                    "credit":"<a href=\"https://databricks.com/blog/2014/11/05/spark-officially-sets-a-new-record-in-large-scale-sorting.html/\">Databricks</a>",
+                    "caption":""
+                }
+            }
+
+        ]
+    }
+}
