@@ -6,7 +6,7 @@
     "startDate":"2009",
     "text": "<p><strong>Apache Spark</strong> is a fast and general engine for large-scale data processing.</p>",
     "asset": {
-      "media":"/resources/spark-logo.png",
+      "media":"resources/spark-logo.png",
       "credit":"",
       "caption":""
     },
@@ -39,7 +39,7 @@
               "text":"Hadoop was created by Doug Cutting and Mike Cafarella in 2005. Cutting, who was working at Yahoo! at the time, named it after his son's toy elephant. It was originally developed to support distribution for the Nutch search engine project.",
               "asset":
               {
-                  "media":"/resources/hadoop-elephant.png",
+                  "media":"resources/hadoop-elephant.png",
                   "credit":"",
                   "caption":""
               }
@@ -83,7 +83,7 @@
                 "text":"<p>68 contibutors</p><p>17 companies contributing, including Yahoo! and Intel.</p><p>63,000 lines of codes</p>",
                 "asset":
                 {
-                    "media":"/resources/incubator.png",
+                    "media":"resources/incubator.png",
                     "credit":"",
                     "caption":""
                 }
@@ -94,7 +94,7 @@
                 "text":"",
                 "asset":
                 {
-                    "media":"/resources/apache.png",
+                    "media":"resources/apache.png",
                     "credit":"",
                     "caption":""
                 }
