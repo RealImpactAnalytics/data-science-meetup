@@ -764,7 +764,7 @@
 }
 
 .vco-skinny.vco-notouch .vco-slider .nav-previous .icon {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -208px 0;
     width: 24px;
@@ -774,7 +774,7 @@
 }
 
 .vco-skinny.vco-notouch .vco-slider .nav-next .icon {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -232px 0;
     width: 24px;
@@ -814,7 +814,7 @@
 
 @media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2) {
     .vco-skinny.vco-notouch .vco-slider .nav-previous .icon {
-        background-image: url("/resources/timeline/timeline.png");
+        background-image: url("../resources/timeline/timeline.png");
         background-size: 352px 260px;
         background-repeat: no-repeat;
         background-position: -208px 0;
@@ -824,7 +824,7 @@
     }
 
     .vco-skinny.vco-notouch .vco-slider .nav-next .icon {
-        background-image: url("/resources/timeline/timeline.png");
+        background-image: url("../resources/timeline/timeline.png");
         background-size: 352px 260px;
         background-repeat: no-repeat;
         background-position: -232px 0;
@@ -950,7 +950,7 @@
 
 .vco-slider .nav-previous .icon {
     margin-left: 15px;
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -160px 0;
     width: 24px;
@@ -970,7 +970,7 @@
 
 .vco-slider .nav-next .icon {
     margin-left: 61px;
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -184px 0;
     width: 24px;
@@ -985,7 +985,7 @@
 
 @media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2) {
     .vco-slider .nav-previous .icon {
-        background-image: url("/resources/timeline/timeline.png");
+        background-image: url("../resources/timeline/timeline.png");
         background-size: 352px 260px;
         background-repeat: no-repeat;
         background-position: -160px 0;
@@ -995,7 +995,7 @@
     }
 
     .vco-slider .nav-next .icon {
-        background-image: url("/resources/timeline/timeline.png");
+        background-image: url("../resources/timeline/timeline.png");
         background-size: 352px 260px;
         background-repeat: no-repeat;
         background-position: -184px 0;
@@ -1619,7 +1619,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -160px -160px;
     width: 48px;
@@ -1852,7 +1852,7 @@
 }
 
 .vco-storyjs thumbnail.thumb-instagram-full {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -232px -96px;
     width: 48px;
@@ -1861,7 +1861,7 @@
 
 .vco-storyjs .thumb-storify-full {
     height: 12px;
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -280px -96px;
     width: 48px
@@ -1882,19 +1882,19 @@
 }
 
 .vco-storyjs .twitter .thumbnail-inline {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -160px -96px
 }
 
 .vco-storyjs .storify .thumbnail-inline {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -184px -96px
 }
 
 .vco-storyjs .googleplus .thumbnail-inline {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -208px -96px
 }
@@ -1909,7 +1909,7 @@
     }
 
     .vco-storyjs div.vco-loading .vco-loading-container .vco-gesture-icon,.vco-storyjs div.vco-explainer .vco-loading-container .vco-gesture-icon,.vco-storyjs div.vco-loading .vco-explainer-container .vco-gesture-icon,.vco-storyjs div.vco-explainer .vco-explainer-container .vco-gesture-icon {
-        background-image: url("/resources/timeline/timeline.png");
+        background-image: url("../resources/timeline/timeline.png");
         background-size: 352px 260px;
         background-repeat: no-repeat;
         background-position: -160px -160px;
@@ -1964,7 +1964,7 @@
 }
 
 .vco-notouch .vco-navigation .timenav .content .marker .flag:hover {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: 0 -53px;
     width: 153px;
@@ -1973,7 +1973,7 @@
 
 .vco-notouch .vco-navigation .timenav .content .marker .flag-small:hover {
     height: 56px;
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: 0 -53px;
     width: 153px;
@@ -1989,7 +1989,7 @@
 }
 
 .vco-notouch .vco-navigation .timenav .content .marker .flag-small.flag-small-last:hover {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: 0 -109px;
     width: 153px;
@@ -2045,7 +2045,7 @@
 }
 
 .vco-timeline .vco-navigation .vco-toolbar .zoom-in .icon {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -256px 0;
     width: 24px;
@@ -2053,7 +2053,7 @@
 }
 
 .vco-timeline .vco-navigation .vco-toolbar .zoom-out .icon {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -280px 0;
     width: 24px;
@@ -2061,7 +2061,7 @@
 }
 
 .vco-timeline .vco-navigation .vco-toolbar .back-home .icon {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -328px 0;
     width: 24px;
@@ -2097,7 +2097,7 @@
 }
 
 .vco-timeline .vco-navigation .vco-toolbar.touch .zoom-in .icon {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -208px -160px;
     width: 40px;
@@ -2105,7 +2105,7 @@
 }
 
 .vco-timeline .vco-navigation .vco-toolbar.touch .zoom-out .icon {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -256px -160px;
     width: 40px;
@@ -2113,7 +2113,7 @@
 }
 
 .vco-timeline .vco-navigation .vco-toolbar.touch .back-home .icon {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -304px -160px;
     width: 40px;
@@ -2177,7 +2177,7 @@
     top: -1px;
     left: 50%;
     z-index: 202;
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -160px -48px;
     width: 24px;
@@ -2282,7 +2282,7 @@
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker.active .flag {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: 0 -53px;
     width: 153px;
@@ -2290,7 +2290,7 @@
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker.active .flag-small {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: 0 -109px;
     width: 153px;
@@ -2419,7 +2419,7 @@
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag {
     height: 56px;
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: 0 0;
     width: 153px;
@@ -2435,7 +2435,7 @@
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: 0 -135px;
     width: 153px;
@@ -2458,103 +2458,103 @@
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-plaintext {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -280px -130px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-quote {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -232px -130px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-document {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -256px -130px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-photo {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -280px -120px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-twitter {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -256px -120px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-vimeo {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -328px -130px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-vine {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -160px -120px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-youtube {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -304px -130px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-video {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -328px -120px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-audio {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -304px -120px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-map {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -208px -120px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-website {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -232px -120px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-link {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -232px -120px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-wikipedia {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -184px -120px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-storify {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -184px -130px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content .thumbnail.thumb-googleplus {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -208px -130px
 }
 
 .vco-timeline .vco-navigation .timenav .content .marker .flag-small .flag-content thumbnail.thumb-instagram {
-    background-image: url("/resources/timeline/timeline.png");
+    background-image: url("../resources/timeline/timeline.png");
     background-repeat: no-repeat;
     background-position: -208px -96px
 }
@@ -2887,7 +2887,7 @@
 
 @media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2) {
     .vco-notouch .vco-navigation .vco-toolbar .zoom-in .icon {
-        background-image: url("/resources/timeline/timeline.png");
+        background-image: url("../resources/timeline/timeline.png");
         background-size: 352px 260px;
         background-repeat: no-repeat;
         background-position: -256px 0;
@@ -2896,7 +2896,7 @@
     }
 
     .vco-notouch .vco-navigation .vco-toolbar .zoom-out .icon {
-        background-image: url("/resources/timeline/timeline.png");
+        background-image: url("../resources/timeline/timeline.png");
         background-size: 352px 260px;
         background-repeat: no-repeat;
         background-position: -280px 0;
@@ -2905,7 +2905,7 @@
     }
 
     .vco-notouch .vco-navigation .vco-toolbar .back-home .icon {
-        background-image: url("/resources/timeline/timeline.png");
+        background-image: url("../resources/timeline/timeline.png");
         background-size: 352px 260px;
         background-repeat: no-repeat;
         background-position: -328px 0;
@@ -2914,7 +2914,7 @@
     }
 
     .vco-notouch .vco-navigation .vco-toolbar.touch .zoom-in .icon {
-        background-image: url("/resources/timeline/timeline.png");
+        background-image: url("../resources/timeline/timeline.png");
         background-size: 352px 260px;
         background-repeat: no-repeat;
         background-position: -208px -160px;
@@ -2923,7 +2923,7 @@
     }
 
     .vco-notouch .vco-navigation .vco-toolbar.touch .zoom-out .icon {
-        background-image: url("/resources/timeline/timeline.png");
+        background-image: url("../resources/timeline/timeline.png");
         background-size: 352px 260px;
         background-repeat: no-repeat;
         background-position: -256px -160px;
@@ -2932,7 +2932,7 @@
     }
 
     .vco-notouch .vco-navigation .vco-toolbar.touch .back-home .icon {
-        background-image: url("/resources/timeline/timeline.png");
+        background-image: url("../resources/timeline/timeline.png");
         background-size: 352px 260px;
         background-repeat: no-repeat;
         background-position: -304px -160px;
@@ -2941,7 +2941,7 @@
     }
 
     .vco-notouch .vco-navigation .timenav .content .marker .flag:hover {
-        background-image: url("/resources/timeline/timeline.png");
+        background-image: url("../resources/timeline/timeline.png");
         background-size: 352px 260px;
         background-repeat: no-repeat;
         background-position: 0 -53px;
@@ -2950,7 +2950,7 @@
     }
 
     .vco-notouch .vco-navigation .timenav .content .marker .flag-small:hover {
-        background-image: url("/resources/timeline/timeline.png");
+        background-image: url("../resources/timeline/timeline.png");
         background-size: 352px 260px;
         background-repeat: no-repeat;
         background-position: 0 -53px;
@@ -2959,7 +2959,7 @@
     }
 
     .vco-notouch .vco-navigation .timenav .content .marker .flag-small.flag-small-last:hover {
-        background-image: url("/resources/timeline/timeline.png");
+        background-image: url("../resources/timeline/timeline.png");
         background-size: 352px 260px;
         background-repeat: no-repeat;
         background-position: 0 -109px;
@@ -2968,7 +2968,7 @@
     }
 
     .vco-notouch .vco-navigation .timenav-background .timenav-indicator {
-        background-image: url("/resources/timeline/timeline.png");
+        background-image: url("../resources/timeline/timeline.png");
         background-size: 352px 260px;
         background-repeat: no-repeat;
         background-position: -160px -48px;
